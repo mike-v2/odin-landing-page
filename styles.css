@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+}
+
+.top-section {
+  padding-bottom: 4em;
+  background-color: #1F2937;
+}
+
+.top-contents {
+  width: 80%;
+  min-width: 600px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: bolder;
+}
+
+.header {
+  display: flex;
+}
+
+.header-logo {
+  flex: 1 1 25%;
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.header-links {
+  display: flex;
+  flex: 1 1 10%;
+  margin: auto 0;
+}
+
+.header-links * {
+  flex: auto;
+  min-width: 140px;
+}
+
+.intro {
+  display: flex;
+  margin: 4em auto;
+}
+
+.intro-block {
+  flex: 1;
+}
+
+.intro-block-left {
+  margin: auto 0;
+  margin-right: 2em;
+}
+
+.intro-block-left * {
+  margin: .2em auto;
+}
+
+.intro-block-left p, .header-links, .call-to-action-text-body {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+input {
+  border: 0;
+  border-radius: 4px;
+  padding: .5em 1.5em;
+  background-color: #3882F6;
+  color: white;
+  font-weight: bold;
+}
+
+.image-caption-section {
+  margin: 4em;
+}
+
+.image-caption-section h1 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  text-align: center;
+  margin: 1em auto;
+}
+
+.image-caption-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.image-caption {
+  flex: 1 1 auto;
+  text-align: center;
+  margin: 0 1em;
+}
+
+.image-placeholder {
+  border: 4px solid #3882F6;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.image-caption p {
+  margin: 0 .5em;
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+  padding: 6em 0;
+}
+
+.quote-contents {
+  width: 50%;
+  min-width: 400px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.quote-contents * {
+  margin: 0;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1F2937;
+}
+
+.quote-author {
+  text-align: right;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1F2937;
+}
+
+.call-to-action-box {
+  width: 90%;
+  height: 150px;
+  background-color: #3882F6;
+  border: 4px solid #3882F6;
+  border-radius: 10px;
+  margin: 6em auto;
+
+  display: flex;
+    align-content: center;
+}
+
+.call-to-action-container {
+  
+}
+
+.call-to-action-flex-item {
+  flex: auto;
+  color: #E5E7EB;
+  margin: auto 6em;
+}
+
+.call-to-action-text-body, .call-to-action-text-header {
+  margin: 0;
+}
+
+.call-to-action-text-header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.call-to-action-flex-item input {
+  border: 2px solid #E5E7EB;
+  margin: auto;
+}
