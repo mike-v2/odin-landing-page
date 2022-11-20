@@ -141,6 +141,7 @@ input {
 
 .call-to-action-box {
   width: 90%;
+  min-width:600px;
   height: 150px;
   background-color: #3882F6;
   border: 4px solid #3882F6;
@@ -151,17 +152,9 @@ input {
     align-content: center;
 }
 
-.call-to-action-container {
-  
-}
 
-.call-to-action-flex-item {
-  flex: auto;
-  color: #E5E7EB;
-  margin: auto 6em;
-}
-
-.call-to-action-text-body, .call-to-action-text-header {
+.call-to-action-text-body,
+.call-to-action-text-header {
   margin: 0;
 }
 
@@ -170,7 +163,27 @@ input {
   font-weight: bold;
 }
 
+
+
+.call-to-action-text {
+  margin: auto 6em;
+  color:#E5E7EB;
+  min-width: 300px;
+}
+
+.call-to-action-button {
+  margin:auto 1%;
+
+  border: 2px solid #E5E7EB;
+}
+
+/* .call-to-action-flex-item {
+  flex: auto;
+  color: #E5E7EB;
+  margin: auto 6em;
+}
+
 .call-to-action-flex-item input {
   border: 2px solid #E5E7EB;
   margin: auto;
-}
+} */
